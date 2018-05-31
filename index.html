@@ -63,18 +63,17 @@
             color: #4286f4;
             text-align: center;
             font-family: 'Open Sans', sans-serif;
-            font-size: 5vw;
+            font-size: 5.5vw;
         }
         .subTitle {
           padding-top:0.1vw;;
           padding-bottom:0.4vw;
           margin-left:5px;
-          font-size 0.7vw;
           padding-left:5px;
           display:inline-block;
           color: #e5e5e5;
           text-align: left;
-          font-size: 2vw;
+          font-size: 1.75vw;
           font-style: italic;
           font-family:'Montserrat', sans-serif;
         }
@@ -91,21 +90,20 @@
             color:#e5e5e5;
             }
         .section {
-              margin-top:1.3vw;
-              margin-bottom:1.3vw;
+              margin-top:2vw;
+              margin-bottom:2vw;
               margin-left:5px;
               font-style:oblique;
-              font-size:2.7vw;
+              font-size:35px;
               text-align:center;
               font-family:'Montserrat' , sans-serif;
               color: #e24834;
         }
         .maintext {
-            padding-top:10px;
             display:inline-block;
             color: #2b2b2b;
             font-family: 'Montserrat', sans-serif;
-            font-size: 1.1vw;
+            font-size: 1.7vw;
             text-align:justify;
             color:#e5e5e5;
         }
@@ -133,6 +131,29 @@
           width: 50%;
           height: auto;
         }
+        .navbar {
+          min-height: 30px;
+        }
+
+        .navbar-brand {
+          padding: 0 0.5vw;
+          height: 30px;
+          line-height: 30px;
+        }
+
+        .navbar-toggle {
+          /* (80px - button height 34px) / 2 = 23px */
+          padding: 9px 10px !important;
+        }
+
+        @media (min-width: 768px) {
+          .navbar-nav > li > a {
+            /* (80px - line-height of 27px) / 2 = 26.5px */
+            padding-top: 1vw;
+            padding-bottom: 1vw;
+            line-height: 0.5vw;
+          }
+        }
         </style>
         <title>Azat Valiev</title>
     </head>
@@ -148,13 +169,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#about"><listitem class="subtitle">About</listitem> <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#about"><listitem class="subTitle" style="font-size: 17px">About</listitem> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#resume"><listitem>Resume</listitem></a>
+        <a class="nav-link" href="#resume"><listitem class="subTitle" style="font-size: 17px">Resume</listitem></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact"><listitem>Contact</listitem></a>
+        <a class="nav-link" href="#contact"><listitem class="subTitle" style="font-size: 17px">Contact</listitem></a>
       </li>
     </ul>
   </div>

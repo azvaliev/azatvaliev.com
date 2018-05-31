@@ -57,23 +57,24 @@
         .title {
             text-decoration:none;
             padding-top: 10px;
-            padding-bottom: 10px;
+            padding-bottom: 0.1vw;
             display:inline-block;
             margin-left:5px;
             color: #4286f4;
             text-align: center;
             font-family: 'Open Sans', sans-serif;
-            font-size: 3.7vw;
+            font-size: 5vw;
         }
         .subTitle {
-          padding-top:5px;
+          padding-top:0.1vw;;
           padding-bottom:0.4vw;
           margin-left:5px;
+          font-size 0.7vw;
           padding-left:5px;
           display:inline-block;
           color: #e5e5e5;
           text-align: left;
-          text-size:2.7vw;
+          font-size: 2vw;
           font-style: italic;
           font-family:'Montserrat', sans-serif;
         }
@@ -83,16 +84,15 @@
         }
         listItem {
             font-family: 'Montserrat', 'sans-serif';
-            font-size 0.7vw;
+            font-size 0.3vw;
             display: block;
-            color: #3a3a3a;
             text-align: center;
             text-decoration: none;
             color:#e5e5e5;
             }
         .section {
-              margin-top:20px;
-              margin-bottom:20px;
+              margin-top:1.3vw;
+              margin-bottom:1.3vw;
               margin-left:5px;
               font-style:oblique;
               font-size:2.7vw;
@@ -129,22 +129,26 @@
               font-family:'Montserrat' , sans-serif;
               color: #e24834;
         }
+        .navcon{
+          width: 50%;
+          height: auto;
+        }
         </style>
         <title>Azat Valiev</title>
     </head>
 <body>
     <h1 class="title"><a style="text-decoration:none" class="title" href="index.html">Azat Valiev</a></h1>
-    <h3 class="subTitle" style="font-size:1vw;">Web & Android developer, based in tri cities</h3>
+    <h3 class="subTitle">Web & Android developer, based in tri cities</h3>
     <div class="naV">
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"><img src="https://image.ibb.co/cKry88/566651_200.png"></span> <!-- Nav Icon -->
+    <span class="navbar-toggler-icon"><img class="navcon" src="https://image.ibb.co/cKry88/566651_200.png"></span> <!-- Nav Icon -->
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#about"><listitem>About</listitem> <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#about"><listitem class="subtitle">About</listitem> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#resume"><listitem>Resume</listitem></a>

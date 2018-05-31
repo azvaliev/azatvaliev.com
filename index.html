@@ -1,27 +1,219 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+    <head>
+       <!-- Required meta tags --->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scal-e=1, shrink-to-fit=no">
+  
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap.min.css">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Open+Sans:300|Tajawal:200,400|Montserrat:100,200i" rel="stylesheet">
+        
+       <!-- Required meta tags --->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scal-e=1, shrink-to-fit=no">
+      
+        <link rel="apple-touch-icon" sizes="57x57" href="https://cdn.glitch.com/ea405d44-9477-4a5f-abdd-29f451565df9%2Fapple-icon-57x57.png?1527284871206">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.glitch.com/ea405d44-9477-4a5f-abdd-29f451565df9%2Fapple-icon-60x60.png?1527284874389">
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="https://cdn.glitch.com/ea405d44-9477-4a5f-abdd-29f451565df9%2Fapple-icon.png?1527284868118">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+        <link rel="manifest" href="/assets/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/assets/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+      
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Open+Sans:300|Tajawal:200,400|Montserrat:100,200i" rel="stylesheet">
+        
+        <style>
+        body {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          background-color:#ffffff;
+          padding-left:15%;
+          padding-right:15%
+        }
+        img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+          border-radius:3%;
+        }
+        a {text-decoration: none; }
+        .title {
+            text-decoration:none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display:inline-block;
+            margin-left:5px;
+            color: #4286f4;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 3.7vw;
+        }
+        .subTitle {
+          padding-top:5px;
+          padding-bottom:5px;
+          margin-left:5px;
+          padding-left:5px;
+          display:inline-block;
+          color: #2b2b2b;
+          text-align: left;
+          text-size:2.7vw;
+          font-style: italic;
+          font-family:'Montserrat', sans-serif;
+        }
+        .naV {
+            background-color: #efefef;
+            border-radius:2%;
+        }
+        listItem {
+            font-family: 'Montserrat', 'sans-serif';
+            font-size 0.7vw;
+            display: block;
+            color: #3a3a3a;
+            text-align: center;
+            text-decoration: none;
+            }
+        .latest {
+              margin-top:20px;
+              margin-bottom:20px;
+              margin-left:5px;
+              font-style:oblique;
+              font-size:2.7vw;
+              text-align:center;
+              font-family:'Montserrat' , sans-serif;
+              color: #e24834;
+        }
+        .datearticle {
+          padding-top: 0px;
+          display:inline-block;
+          color: #2b2b2b;
+          text-align: left;
+          font-style: italic;
+          font-family:'Montserrat', sans-serif;
+          font-size:1.32vw;
+        }        
+        .titlearticle {
+            font-size:3.1vw;
+            color: #2b2b2b;
+            display:inline-block;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .articletext {
+            padding-top:10px;
+            display:inline-block;
+            color: #2b2b2b;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1vw;
+            text-align:justify;
+        }
+        </style>
+        <title>Azat Valiev</title>
+    </head>
+<body>
+    <h1 class="title"><a style="text-decoration:none" class="title" href="index.html">Azat Valiev</a></h1>
+    <h3 class="subTitle" style="font-size:1vw;">Web & Android developer, based in tri cities</h3>
+    <div class="naV">
+<nav class="navbar navbar-expand-lg">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><img src="https://image.ibb.co/cKry88/566651_200.png"></span> <!-- Nav Icon -->
+  </button>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><listitem>About Me</listitem> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact.html"><listitem>Resume</listitem></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html"><listitem>Contact</listitem></a>
+      </li>
+    </ul>
+  </div>
+  
+</nav>
+    </div>
+    <div class="container-fluid">
+      
+       <div class="row">
+           <div class="col-sm-10">
+               <h2 class="latest">About me</h2>
+           </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-9">
+          <p class="articletext" align="left">
+          My name is Azat Valiev. I am a 15 year old aspriring developer based in the Tri Cities of Washington. 
+      My other works include some Android applications which have thousands of downloads on the <a style="color:#4286f4;" href="https://play.google.com/store/apps/dev?id=5613471573391791221&hl=en" >Google Play Store</a>.
+      Currently, I am interested and open to an internship, feel free to contact me using the information on the contact page or look at my Résumé linked down below.
+      My programming knowledge currently consists of an strong knowledge of Java, and Android, including experience developing the apps mentioned above.
+      In addition to that, I know my way around JavaScript, CSS, and Bootstrap as you can see.
+      Among this, I am also familiar with Web Design and Adobe Photoshop.
+      Some of my other hobbies include reading, tabletop games, and poetry.
+      My short term goals are getting an internship or a job involving web or software development.
+      Long term wise would be landing a job at a bigger tech company in web development.  
+          </p>
+        </div>
+        <div class="col-sm-3">
+            <img class="articleimage" src="https://image.ibb.co/gfdyYy/profile.jpg">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-10">
+          <h4 class="titlearticle">
+            Russia following up with Telegram ban
+          </h4>
+          <br>
+          <h3 class="datearticle">
+            More than one week ago
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="col-sm-6">
+          <p class="articletext" align="left">
+            Recently, Russia took popular messaging app Telegram to court because of it's end to end encryption and refusal to provide encryption keys to the Russian government.
+            The app goes against a Russian law allowing the government to spy on citizens, and because of Telegram's unwillingless to provide the encryption keys, it has now officially been banned in Russia.
+            According to The Guardian, Russia has now blocked millions of IP address's attempting to enforce the ban on the Telegram app.
+            This is just the first of many steps the government appears to be taking in order to get the Telegram app banned.
+            The Russian government has also now requested to Google and Apple to remove the app from their app stores to help enforce their ban. 
+            It has also sent a request to popular site APKMirror, a site that allows you to download any app on the Google Play Store, that is well trusted in the community.
+            Neither Google nor Apple has responded, but here's to hoping that they deny the request of banning Telegram.
+          </p>
+        </div>
+        <div class="col-sm-6">
+            <img class="articleimage" src="https://image.ibb.co/f6VKwT/gram.jpg">
+        </div>
+      </div>
+      
+      
+    </div> <!-- closes main container -->
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+
+</body>
 </html>

@@ -89,7 +89,7 @@
             text-align: center;
             text-decoration: none;
             }
-        .latest {
+        .section {
               margin-top:20px;
               margin-bottom:20px;
               margin-left:5px;
@@ -99,22 +99,7 @@
               font-family:'Montserrat' , sans-serif;
               color: #e24834;
         }
-        .datearticle {
-          padding-top: 0px;
-          display:inline-block;
-          color: #2b2b2b;
-          text-align: left;
-          font-style: italic;
-          font-family:'Montserrat', sans-serif;
-          font-size:1.32vw;
-        }        
-        .titlearticle {
-            font-size:3.1vw;
-            color: #2b2b2b;
-            display:inline-block;
-            font-family: 'Montserrat', sans-serif;
-        }
-        .articletext {
+        .maintext {
             padding-top:10px;
             display:inline-block;
             color: #2b2b2b;
@@ -132,13 +117,13 @@
               font-family:'Montserrat' , sans-serif;
               color: #4286f4;
         }
-        .co {
+        .contactt{
               margin-top:20px;
               margin-bottom:20px;
               margin-left:5px;
               font-style:oblique;
               font-size:2.7vw;
-              text-align:center;
+              text-align:left;
               font-family:'Montserrat' , sans-serif;
               color: #e24834;
         }
@@ -157,10 +142,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><listitem>About me</listitem> <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#about"><listitem>About me</listitem> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Contact.html"><listitem>Resume</listitem></a>
+        <a class="nav-link" href="#resume"><listitem>Resume</listitem></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="About.html"><listitem>Contact</listitem></a>
@@ -174,13 +159,15 @@
       
        <div class="row">
            <div class="col-sm-10">
-               <h2 class="latest">About me</h2>
+              <a id="about">
+                <h2 class="section">About me</h2>
+              </a>
            </div>
       </div>
       
       <div class="row">
         <div class="col-sm-9">
-          <p class="articletext" align="left">
+          <p class="maintext" align="left">
           My name is Azat Valiev. I am a 15 year old aspriring developer based in the Tri Cities of Washington. 
       My other works include some an Android News Website and several Android applications which have thousands of downloads on the <a style="color:#4286f4;" href="https://play.google.com/store/apps/dev?id=5613471573391791221&hl=en" >Google Play Store</a>.
       Currently, I am interested and open to an internship, feel free to contact me using the information on the contact section or take a peek at my Résumé linked down below.
@@ -200,7 +187,9 @@
       
       <div class="row">
            <div class="col-sm-12">
-               <h2 class="latest"><a class="resume" href="https://drive.google.com/file/d/1sSbKsXxZk7Ic2DLJZxHpmcQ5AtL1rzhL/view?usp=sharing">My complete resume</a></h2>
+              <a id="resume">
+                <h2 class="section"><a class="resume" href="https://drive.google.com/file/d/1sSbKsXxZk7Ic2DLJZxHpmcQ5AtL1rzhL/view?usp=sharing">My complete resume</a></h2>
+              </a>
            </div>
       </div>
       
@@ -208,7 +197,16 @@
       
       <div class="row">
         <div class="col-sm-10">
-            <h2 class="contact!">Contact Me</h2>
+            <a id="contact">
+              <h2 class="contactt">Contact Me</h2>
+            </a>
+            <p class="maintext">
+              e-mail: <a style="color:#4286f4;font-family:'Montserrat',sans-serif;font-size:25px;" href="mailto:azvaliev@gmail.com?subject=Contact" > azvaliev@gmail.com</a>
+              <br>
+              I typically reply to email within 3-5 days
+              <br>
+              Alternatively, I can be reached at 509-212-6366
+          </p>
         </div>
       </div>
     </div> <!-- closes main container -->

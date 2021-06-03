@@ -1,5 +1,9 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
 
-// prints "hi" in the browser's dev tools console
-console.log('hi');
+var animateWelcome = setInterval(function() {
+  if (document.getElementById('welcome').textContent == "Welcome...") {
+    document.getElementById('welcome').textContent = "Welcome";
+  }
+  else {
+    document.getElementById('welcome').textContent = document.getElementById('welcome').textContent + ".";
+  }
+}, 1000);

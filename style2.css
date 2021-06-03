@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  background-color: black;
+  overflow-x: hidden;
+}
+.container {
+  color: white;
+  font-family:  'Source Code Pro', monospace;
+  font-weight: 200;
+  font-size: 1.3em;
+}
+.main-text {
+  border-style: inset;
+  border-bottom: 0;
+}
+.go-left {
+  border-style: inset;
+  border-right: 0;
+  border-top: 0;
+}
+.go-right {
+  border-style: inset;
+  border-left: 0;
+  border-top: 0;
+}
+input {
+  background-color: black;
+  border-width:0px;
+  border:none;
+  width: 100%;
+  margin-bottom: 3%;
+  padding: 0;
+  height:5vh;
+}
+input:focus{
+  outline: none;
+}
+.buttonInput {
+  border: 2px solid white;
+  border-radius: 8px;
+}
+h2 {
+  text-align: center;
+}
+p{
+  margin-top: 5%
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+  border-bottom: 0.5px solid white;
+}
+a:visited {
+  color: white;
+  border-bottom: 0.5px solid white;
+}

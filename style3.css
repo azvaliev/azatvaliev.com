@@ -1,0 +1,61 @@
+/* for portfolio.html */
+html,
+body {
+  height: 100%;
+  background-color: black;
+  overflow-x: hidden;
+}
+.container {
+  color: white;
+  font-family:  'Source Code Pro', monospace;
+  font-weight: 200;
+  font-size: 1.3em;
+}
+img {
+  margin-top: 2vh;
+}
+h2 {
+  text-align: center;
+}
+p{
+  margin-top: 5%
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+  border-bottom: 0.5px solid white;
+}
+a:visited {
+  color: white;
+  border-bottom: 0.5px solid white;
+}
+input {
+  background-color: black;
+  border-width:0px;
+  border:none;
+  width: 100%;
+  margin-bottom: 3%;
+  padding: 0;
+  height:5vh;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin-bottom: 3vh;
+}
+input:focus{
+  outline: none;
+}
+.bold {
+  font-weight : 600;
+}
+.navigation {
+  margin-top: 5%;
+  margin-top: 5vh;
+}
+@media (pointer:coarse) {
+  container {
+    font-size: 2em;
+  }
+}

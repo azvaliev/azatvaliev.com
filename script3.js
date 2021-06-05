@@ -15,6 +15,14 @@ window.addEventListener('load', function () {
     textInput.select();
   }
 
+  function KeyPress(e) {
+      var evtobj = window.event? event : e
+      if (evtobj.keyCode == 90 && evtobj.ctrlKey) {
+        window.location.href = "home.html";
+      }
+    }
+
+    document.onkeydown = KeyPress;
 
 });
 window.mobileAndTabletCheck = function() {

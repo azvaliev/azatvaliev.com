@@ -10,34 +10,42 @@ body {
   font-family:  'Source Code Pro', monospace;
   font-weight: 200;
   font-size: 1.3em;
+  border: 2px solid white;
+   border-style: inset;
 }
 @media (pointer:coarse) {
   .container {
-    font-size: 2em;
+    font-size: 2.3em;
+
   }
   input {
   font-size: 1.3em;
 }
+  h2 {
+    font-size: 2em;
+  }
 }
 .main-text {
-  border-style: inset;
-  border-bottom: 0;
+  /* border-style: inset;
+  border-bottom: 0; */
 }
 .go-left {
-  border-style: inset;
+  /* border-style: inset;
   border-right: 0;
   border-top: 0;
     margin-bottom: 0;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 0; */
+  width: 50%;
 }
 .go-right {
-  border-style: inset;
+  /* border-style: inset;
   border-left: 0;
   border-top: 0;
   margin-bottom: 0;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 0; */
+  width: 50%;
 }
 input {
   background-color: black;

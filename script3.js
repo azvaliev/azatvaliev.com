@@ -4,6 +4,7 @@ window.addEventListener('load', function () {
   emailLink.rel="noopener noreferrer";
   if (window.mobileAndTabletCheck()) {
     emailLink.href = "mailto:valievventures@gmail.com";
+    var textInput = document.getElementById('textInput');
     textInput.type = "submit";
     textInput.value = "Back";
     textInput.className = "buttonInput";

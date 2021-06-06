@@ -1,6 +1,7 @@
 window.addEventListener('load', function () {
   var emailForm = document.getElementById('email');
     if (window.mobileAndTabletCheck()) {
+      emailForm.method = "get";
       emailForm.action = "mailto:valievventures@gmail.com";
     }
     else {

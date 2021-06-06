@@ -12,9 +12,12 @@ body {
   font-size: 1.3em;
 }
 @media (pointer:coarse) {
-  container {
+  .container {
     font-size: 2em;
   }
+  input {
+  font-size: 1.3em;
+}
 }
 .main-text {
   border-style: inset;
@@ -44,6 +47,7 @@ input {
   margin-bottom: 3%;
   padding: 0;
   height:5vh;
+  font-weight: 300;
 }
 input:focus{
   outline: none;
@@ -52,9 +56,11 @@ input:focus{
   border: 2px solid white;
   border-radius: 8px;
   margin-bottom: 3vh;
+    font-weight: 300;
 }
 .textInput {
   margin-bottom: 3vh;
+    font-weight: 300;
 }
 h2 {
   text-align: center;

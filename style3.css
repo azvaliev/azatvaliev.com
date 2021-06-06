@@ -11,6 +11,7 @@ body {
   font-weight: 200;
   font-size: 1.3em;
 }
+
 img {
   margin-top: 2vh;
 }
@@ -43,6 +44,7 @@ input {
   border: 2px solid white;
   border-radius: 8px;
   margin-bottom: 3vh;
+  font-weight: 300;
 }
 input:focus{
   outline: none;
@@ -55,7 +57,20 @@ input:focus{
   margin-top: 5vh;
 }
 @media (pointer:coarse) {
-  container {
-    font-size: 2em;
+  .container {
+    font-size: 2.4em;
+    font-weight: 300;
+    margin-right: 5%;
+    margin-left: 5%;
   }
+  h3 {
+    font-size: 1.3em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  input {
+    font-size: 1.3em;
+  }
+
 }

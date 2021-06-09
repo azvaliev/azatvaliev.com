@@ -11,12 +11,19 @@ body {
   font-weight: 200;
   font-size: 1.3em;
 }
-
+.row {
+  width: 100%;
+  margin: 0;
+}
 img {
   margin-top: 2vh;
 }
 h2 {
   text-align: center;
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
 }
 p{
   margin-top: 5%
@@ -60,8 +67,6 @@ input:focus{
   .container {
     font-size: 2.4em;
     font-weight: 300;
-    margin-right: 5%;
-    margin-left: 5%;
   }
   h3 {
     font-size: 1.3em;
@@ -71,6 +76,9 @@ input:focus{
   }
   input {
     font-size: 1.3em;
+  }
+  .col-sm-12 {
+    width: 100%;
   }
 
 }

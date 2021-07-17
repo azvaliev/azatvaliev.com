@@ -11,7 +11,7 @@ async function handler() {
   anchor.removeEventListener('click', handler)
   for (x in email){
     contactText.textContent = contactText.textContent + email[x]
-    await timer(250);
+    await timer(80);
   }
   window.mobileAndTabletCheck = function() {
     let check = false;
